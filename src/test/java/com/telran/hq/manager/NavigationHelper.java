@@ -5,16 +5,16 @@ import org.openqa.selenium.WebDriver;
 
 public class NavigationHelper extends HelperBase {
 
-        public NavigationHelper(WebDriver driver) {
+    public NavigationHelper(WebDriver driver) {
         super(driver);
-    }
-
-    public void gotoRegistration() {
-        click(By.linkText("Registration"));
     }
 
     public void openSite(String url) {
         driver.get(url);
+    }
+
+    public void gotoRegistration() {
+        click(By.linkText("Registration"));
     }
 
     public void gotoLogin() {

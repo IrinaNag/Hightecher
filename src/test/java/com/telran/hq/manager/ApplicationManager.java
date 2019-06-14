@@ -21,16 +21,16 @@ public class ApplicationManager {
     private StringBuffer verificationErrors = new StringBuffer();
 
     public ApplicationManager(String browser) {
-        this.browser=browser;
+        this.browser = browser;
     }
 
     public void start() {
-        if(browser==BrowserType.CHROME)
-            driver=new ChromeDriver();
-        else if (browser==BrowserType.FIREFOX)
+        if (browser.equals(BrowserType.CHROME))
+            driver = new ChromeDriver();
+        else if (browser.equals(BrowserType.FIREFOX))
             driver = new FirefoxDriver();
-        else if(browser==BrowserType.IE)
-            driver=new InternetExplorerDriver();
+        else if (browser.equals(BrowserType.IE))
+            driver = new InternetExplorerDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         navigationHelper = new NavigationHelper(driver);
         navigationHelper.openSite("https://hightecher.com/");

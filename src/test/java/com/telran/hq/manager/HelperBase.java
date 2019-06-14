@@ -8,17 +8,22 @@ public class HelperBase {
 
 
     public HelperBase(WebDriver driver) {
-        this.driver=driver;
+        this.driver = driver;
     }
 
-    protected void type(By locator, String str) {
-        click(locator);
-        clear(locator);
-        sendKeys(locator, str);
+    protected void type(By locator, String text) {
+        String existingText = driver.findElement(locator).getAttribute("value");
+        if (!existingText.equals(text)) {
+            click(locator);
+            clear(locator);
+            sendKeys(locator, text);
+        }
     }
 
-    private void sendKeys(By locator, String str) {
-        driver.findElement(locator).sendKeys(str);
+    private void sendKeys(By locator, String text) {
+        if (text != null) {
+            driver.findElement(locator).sendKeys(text);
+        }
     }
 
     private void clear(By locator) {

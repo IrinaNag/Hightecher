@@ -11,8 +11,8 @@ public class SessionHelper extends HelperBase {
     }
 
     public void fillLoginForm(User user) {
-        type(By.cssSelector("#email"),user.getEmail());
-        type(By.cssSelector("#password"),user.getPassword());
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
     }
 
     public void submitLogin() {
