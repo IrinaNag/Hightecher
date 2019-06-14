@@ -1,9 +1,9 @@
 package com.telran.hq.tests;
 
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.telran.hq.model.DB;
+import com.telran.hq.manager.DBHelper;
 import org.bson.Document;
 import org.testng.annotations.Test;
 
@@ -17,9 +17,14 @@ public class DBConnectionTest {
     @Test
     public void testDBConnection() {
 
-        MongoClient mongoClient = MongoClients.create("mongodb://server:CjuND8hJ8L84F6N@ds349045.mlab.com:49045/?authSource=ht-profiles");
-        MongoDatabase database = mongoClient.getDatabase("ht-profiles");
-        MongoCollection<Document> collection = database.getCollection("profile");
+
+        DB usersDB = new DB("mongodb://server:CjuND8hJ8L84F6N@ds349045.mlab.com:49045/?authSource=ht-profiles"
+                , "ht-profiles");
+        DBHelper usersDBHelper = new DBHelper(usersDB);
+        MongoDatabase database = usersDBHelper.getMongoDB(usersDB);
+        MongoCollection<Document> collection = usersDBHelper.getMongoCollection(database, "profile");
+
+
         System.out.println(collection.countDocuments());
 
         List<String> result = new ArrayList<>();
@@ -27,5 +32,8 @@ public class DBConnectionTest {
                 .collect(Collectors.toList());
         System.out.println(result.size());
 
+
     }
+
+
 }
