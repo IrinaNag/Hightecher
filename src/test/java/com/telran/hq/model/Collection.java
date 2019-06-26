@@ -6,9 +6,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class DB {
-    private String uri;
-    private String databaseName;
-
+public class Collection {
+    public DBase database;
+    public String collectionName;
 }

@@ -1,6 +1,7 @@
 package com.telran.hq.manager;
 
 import com.telran.hq.model.User;
+import com.telran.hq.model.UserLogin;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,7 +11,12 @@ public class SessionHelper extends HelperBase {
         super(driver);
     }
 
-    public void fillLoginForm(User user) {
+    public void login(UserLogin user) {
+        fillLoginForm(user);
+        submitLogin();
+    }
+
+    public void fillLoginForm(UserLogin user) {
         type(By.cssSelector("#email"), user.getEmail());
         type(By.cssSelector("#password"), user.getPassword());
     }

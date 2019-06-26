@@ -1,5 +1,6 @@
 package com.telran.hq.manager;
 
+import com.telran.hq.model.DBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,15 +14,18 @@ import static org.testng.Assert.fail;
 public class ApplicationManager {
     private String browser;
     protected WebDriver driver;
+    public DBase usersDB;
 
     private UserHelper userHelper;
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
+    private DBHelper usersDBHelper;
 
     private StringBuffer verificationErrors = new StringBuffer();
 
-    public ApplicationManager(String browser) {
+    public ApplicationManager(String browser, DBase usersDB) {
         this.browser = browser;
+        this.usersDB = usersDB;
     }
 
     public void start() {
@@ -33,9 +37,11 @@ public class ApplicationManager {
             driver = new InternetExplorerDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         navigationHelper = new NavigationHelper(driver);
-        navigationHelper.openSite("https://hightecher.com/");
+        navigationHelper.site("https://hightecher.com/");
         userHelper = new UserHelper(driver);
         sessionHelper = new SessionHelper(driver);
+        usersDBHelper = new DBHelper(usersDB);
+
     }
 
 
@@ -47,15 +53,20 @@ public class ApplicationManager {
         }
     }
 
-    public UserHelper getUserHelper() {
+    public UserHelper user() {
         return userHelper;
     }
 
-    public NavigationHelper getNavigationHelper() {
+    public NavigationHelper goTo() {
         return navigationHelper;
     }
 
-    public SessionHelper getSessionHelper() {
+    public SessionHelper session() {
         return sessionHelper;
     }
+
+    public DBHelper usersDB() {
+        return usersDBHelper;
+    }
 }
+

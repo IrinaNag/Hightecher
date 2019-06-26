@@ -1,7 +1,17 @@
 package com.telran.hq.manager;
 
+import com.telran.hq.model.UserLogin;
+import lombok.NoArgsConstructor;
 import org.openqa.selenium.*;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.stream.Collectors;
+
+@NoArgsConstructor
 public class HelperBase {
     protected WebDriver driver;
     private boolean acceptNextAlert = true;
@@ -20,13 +30,13 @@ public class HelperBase {
         }
     }
 
-    private void sendKeys(By locator, String text) {
+    protected void sendKeys(By locator, String text) {
         if (text != null) {
             driver.findElement(locator).sendKeys(text);
         }
     }
 
-    private void clear(By locator) {
+    protected void clear(By locator) {
         driver.findElement(locator).clear();
     }
 
@@ -34,7 +44,7 @@ public class HelperBase {
         driver.findElement(locator).click();
     }
 
-    private boolean isElementPresent(By by) {
+    protected boolean isElementPresent(By by) {
         try {
             driver.findElement(by);
             return true;
@@ -43,7 +53,7 @@ public class HelperBase {
         }
     }
 
-    private boolean isAlertPresent() {
+    protected boolean isAlertPresent() {
         try {
             driver.switchTo().alert();
             return true;
@@ -52,7 +62,16 @@ public class HelperBase {
         }
     }
 
-    private String closeAlertAndGetItsText() {
+
+    public String getAlertText() {
+        try {
+            return driver.switchTo().alert().getText();
+        } catch (Exception e) {
+            return e.getMessage();
+        }
+    }
+
+    protected String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();
@@ -66,6 +85,15 @@ public class HelperBase {
             acceptNextAlert = true;
         }
     }
+
+    public Iterator<Object[]> getDataFromFile(String fileName) throws IOException {
+        try(BufferedReader reader = new BufferedReader(new FileReader(fileName))){
+            return reader.lines().map(line -> line.split(";"))
+                    .map(split -> new Object[]{new UserLogin(split[0], split[1])})
+                    .collect(Collectors.toList()).iterator();
+        }
+    }
+
 
 
 }

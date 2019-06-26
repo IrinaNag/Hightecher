@@ -10,6 +10,12 @@ public class UserHelper extends HelperBase {
         super(driver);
     }
 
+
+    public void registration(User user) {
+        fillRegistrationForm(user);
+        submitRegistration();
+    }
+
     public void submitRegistration() {
         click(By.xpath("//button[@class='btn btn-success']"));
     }
@@ -23,5 +29,6 @@ public class UserHelper extends HelperBase {
         type(By.id("password"), user.getPassword());
         type(By.id("password_confirmation"), user.getPassword_confirmation());
     }
+
 
 }

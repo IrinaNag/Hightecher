@@ -9,15 +9,15 @@ public class NavigationHelper extends HelperBase {
         super(driver);
     }
 
-    public void openSite(String url) {
+    public void site(String url) {
         driver.get(url);
     }
 
-    public void gotoRegistration() {
+    public void registrationPage() {
         click(By.linkText("Registration"));
     }
 
-    public void gotoLogin() {
+    public void loginPage() {
         click(By.linkText("Login"));
     }
 }
