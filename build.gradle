@@ -22,15 +22,22 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
     testCompile 'org.mongodb:mongo-java-driver:3.10.1'
     testCompile 'org.hamcrest:hamcrest:2.1'
-    testCompile 'com.beust:jcommander:1.72'
+    /*testCompile 'com.beust:jcommander:1.72'
     testCompile 'com.thoughtworks.xstream:xstream:1.4.11'
-    testCompile 'com.google.code.gson:gson:2.8.3'
+    testCompile 'com.google.code.gson:gson:2.8.3'*/
 }
 
 test{
     useTestNG(){
         suites 'src/test/resources/testng.xml'
     }
+    if (project.hasProperty("browser")) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty("target")) {
+        systemProperty 'target', "${target}"
+    }
+
 }
 
 /*task testUsers (type:Test){

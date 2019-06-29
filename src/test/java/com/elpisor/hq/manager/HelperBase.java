@@ -1,11 +1,10 @@
-package com.telran.hq.manager;
+package com.elpisor.hq.manager;
 
-import com.telran.hq.model.UserLogin;
+import com.elpisor.hq.model.UserLogin;
 import lombok.NoArgsConstructor;
 import org.openqa.selenium.*;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Iterator;

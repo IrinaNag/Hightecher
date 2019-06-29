@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.hq.tests.LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-26T12:18:23" hostname="Irishka" time="8.335">
+<testsuite name="com.telran.hq.tests.LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-27T10:25:01" hostname="Irishka" time="8.614">
   <properties/>
-  <testcase name="testLogin[0](UserLogin(email=hkjhkjhk@gfh.com, password=1qazxcvbM!))" classname="com.telran.hq.tests.LoginTest" time="7.014"/>
-  <testcase name="testLogin[1](UserLogin(email=hkjkjkjhk@gfh.com, password=1qlkxcvbM!))" classname="com.telran.hq.tests.LoginTest" time="1.315"/>
-  <system-out><![CDATA[15:18:23.423 [Test worker] INFO  com.telran.hq.tests.TestBase - Start test testLogin[UserLogin(email=hkjhkjhk@gfh.com, password=1qazxcvbM!)]
+  <testcase name="testLogin[0](UserLogin(email=hkjhkjhk@gfh.com, password=1qazxcvbM!))" classname="com.telran.hq.tests.LoginTest" time="7.14"/>
+  <testcase name="testLogin[1](UserLogin(email=hkjkjkjhk@gfh.com, password=1qlkxcvbM!))" classname="com.telran.hq.tests.LoginTest" time="1.47"/>
+  <system-out><![CDATA[13:25:01.679 [Test worker] INFO  com.telran.hq.tests.TestBase - Start test testLogin[UserLogin(email=hkjhkjhk@gfh.com, password=1qazxcvbM!)]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

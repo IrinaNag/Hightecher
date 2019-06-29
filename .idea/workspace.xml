@@ -2,45 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d88e33-be0e-429a-b480-85c5c3fdab5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/RegisterUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/hightecher_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hightecher_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/DBHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/SessionHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/UserHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/UserHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/DB$DBBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/DBConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/DBConnectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/RegisterUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/UserHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/DBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/DBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/DBConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/RegisterUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.telran.hq.tests.LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.telran.hq.tests.LoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.telran.hq.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.telran.hq.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.telran.hq.tests.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.telran.hq.tests.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/DBHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/NavigationHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/SessionHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/manager/UserHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/DBConnectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/hq/tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/DBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/DBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/DBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/model/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/DBConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/DBConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/RegisterUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -129,18 +131,21 @@
     <session id="-1541438289">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.104" value="2" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.247" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.82" value="1" />
@@ -149,51 +154,57 @@
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
           <entry key="csv" value="2" />
-          <entry key="gitattributes" value="2" />
+          <entry key="gitattributes" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="gradle" value="7" />
+          <entry key="gradle" value="9" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="6" />
-          <entry key="java" value="98" />
+          <entry key="java" value="113" />
           <entry key="js" value="1" />
-          <entry key="log" value="9" />
+          <entry key="log" value="12" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="2" />
           <entry key="tld" value="1" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="2" />
-          <entry key="Groovy" value="7" />
+          <entry key="Groovy" value="9" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="98" />
+          <entry key="JAVA" value="113" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="19" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="34" />
           <entry key="dummy" value="129" />
-          <entry key="gradle" value="218" />
-          <entry key="java" value="4375" />
+          <entry key="gradle" value="308" />
+          <entry key="java" value="4829" />
+          <entry key="properties" value="12" />
           <entry key="xml" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="34" />
-          <entry key="Groovy" value="218" />
-          <entry key="JAVA" value="4375" />
+          <entry key="Groovy" value="308" />
+          <entry key="JAVA" value="4829" />
           <entry key="PLAIN_TEXT" value="129" />
+          <entry key="Properties" value="12" />
           <entry key="XML" value="88" />
         </counts>
       </usages-collector>
@@ -204,27 +215,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="408">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="59" column="11" selection-start-line="56" selection-start-column="8" selection-end-line="59" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/DBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/DBConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+            <state relative-caret-position="272">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/RegisterUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -420,9 +463,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6243840276433" />
+        <entry key="$PROJECT_DIR$" value="6244007816026" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1136997506" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="826730685" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2871350656" />
       </map>
@@ -610,7 +653,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DB.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/UserHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/model/Collection.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/model/User.java" />
@@ -622,7 +664,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/testng_users.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/Login.java" />
         <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/RegisterUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestAppl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/NavigationHelper.java" />
@@ -631,8 +672,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DBHelper.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/model/UserLogin.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/general.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/DBase.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/DBConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/RegisterUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -643,8 +692,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="540" />
-    <option name="y" value="22" />
+    <option name="x" value="229" />
+    <option name="y" value="52" />
     <option name="width" value="865" />
     <option name="height" value="788" />
   </component>
@@ -655,6 +704,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -667,17 +717,71 @@
               <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hq" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hq" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hq" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hightecher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hightecher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561560474315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561844382232" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../inagQa15Class" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -685,7 +789,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -712,7 +816,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.hightecher [test]">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="hightecher [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -767,23 +871,21 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="hightecher [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
+    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hightecher_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elpisor.hq.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elpisor.hq.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.elpisor.hq.tests.LoginTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LoginTest.testLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hightecher_test" />
@@ -793,10 +895,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.telran.hq.tests" />
       <option name="MAIN_CLASS_NAME" value="com.telran.hq.tests.LoginTest" />
       <option name="METHOD_NAME" value="testLogin" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -804,19 +915,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.hightecher [test]" />
       <item itemvalue="Gradle.hightecher [check]" />
       <item itemvalue="Gradle.hightecher [compileJava]" />
       <item itemvalue="Gradle.hightecher [compileTestJava]" />
       <item itemvalue="TestNG.LoginTest.testLogin" />
+      <item itemvalue="TestNG.LoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.testLogin" />
         <item itemvalue="Gradle.hightecher [compileTestJava]" />
         <item itemvalue="Gradle.hightecher [compileJava]" />
         <item itemvalue="Gradle.hightecher [check]" />
-        <item itemvalue="Gradle.hightecher [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -849,23 +960,14 @@
       <workItem from="1561446825651" duration="17303000" />
       <workItem from="1561534892427" duration="5886000" />
       <workItem from="1561541440728" duration="2506000" />
-      <workItem from="1561545880782" duration="7600000" />
+      <workItem from="1561545880782" duration="18816000" />
+      <workItem from="1561715841975" duration="2210000" />
+      <workItem from="1561793427973" duration="7507000" />
+      <workItem from="1561844004262" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hightecher_[check] - 2019.06.26 at 11h 09m 07s.xml">
-      <configuration name="hightecher [check]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="hightecher_[check] - 2019.06.26 at 11h 09m 06s.xml">
-      <configuration name="hightecher [check]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="hightecher_[test] - 2019.06.26 at 11h 32m 32s.xml">
-      <configuration name="hightecher [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="hightecher_[test] - 2019.06.26 at 11h 40m 06s.xml">
-      <configuration name="hightecher [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="hightecher_[test] - 2019.06.26 at 11h 53m 10s.xml">
       <configuration name="hightecher [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -884,9 +986,21 @@
     <history-entry file="hightecher_[test] - 2019.06.26 at 13h 59m 09s.xml">
       <configuration name="hightecher [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="LoginTest_testLogin - 2019.06.26 at 18h 09m 45s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_testLogin - 2019.06.26 at 18h 33m 37s.xml">
+      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.06.29 at 10h 35m 25s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.06.29 at 11h 59m 55s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155617000" />
+    <option name="totallyTimeSpent" value="176789000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -901,7 +1015,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49512196" visible="true" weight="0.30408472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49512196" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" sideWeight="0.50487804" side_tool="true" weight="0.31543118" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -910,7 +1024,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.40425533" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.40425533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,41 +1088,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Hightecher" />
+    </ignored-roots>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.10.1/7860d12f855735214992d293dec358b084c0b460/mongo-java-driver-3.10.1-sources.jar!/com/mongodb/client/internal/MongoIterableImpl.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ObjectFactoryImpl.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ClassHelper.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ClassImpl.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/TestClass.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/TestRunner.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/SuiteRunner.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/TestNG.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/model/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng_database.xml" />
     <entry file="file://$PROJECT_DIR$/build/reports/tests/testDatabase/js/report.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1034,13 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestAppl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1048,49 +1135,28 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/loginPositiveData.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3">
-          <column index="0" width="100" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="27" selection-start-column="17" selection-end-column="27" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3">
+          <column index="0" width="100" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/SessionHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/tests/RegisterUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/tests/DBConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/testDatabase/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -1098,63 +1164,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml.tld" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/model/DBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/model/UserLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/UserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/UserHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/UserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/manager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/telran/hq/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -1178,26 +1205,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hightecher/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Hightecher/.gitattributes" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="1870">
+          <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test-20190626T183505.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test-20190627T111946.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test-20190627T132432.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/general.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/DBConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/RegisterUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/model/DBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/elpisor/hq/manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="59" column="11" selection-start-line="56" selection-start-column="8" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

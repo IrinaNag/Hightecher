@@ -1,7 +1,7 @@
-package com.telran.hq.tests;
+package com.elpisor.hq.tests;
 
 import com.mongodb.client.MongoCollection;
-import com.telran.hq.model.Collection;
+import com.elpisor.hq.model.Collection;
 import org.bson.Document;
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
@@ -16,14 +16,17 @@ public class DBConnectionTest extends TestBase {
 
 
         MongoCollection<Document> collection = app.usersDB().collection(new Collection(app.usersDB,"profiles"));
+        long numberOfDocuments = collection.countDocuments();
 
 
-        /*System.out.println(collection.countDocuments());*/
 
         List<String> result = app.usersDB().collectionList(collection);
-        /*System.out.println(result.size());*/
 
-        MatcherAssert.assertThat(collection.countDocuments(), CoreMatchers.equalTo(((long) result.size())));
+
+
+
+
+        MatcherAssert.assertThat(numberOfDocuments, CoreMatchers.equalTo(((long) result.size())));
 
     }
 

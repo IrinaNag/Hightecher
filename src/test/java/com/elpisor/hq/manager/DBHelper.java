@@ -1,11 +1,11 @@
-package com.telran.hq.manager;
+package com.elpisor.hq.manager;
 
+import com.elpisor.hq.model.DBase;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.telran.hq.model.Collection;
-import com.telran.hq.model.DBase;
+import com.elpisor.hq.model.Collection;
 import org.bson.Document;
 
 import java.util.ArrayList;

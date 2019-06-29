@@ -1,13 +1,8 @@
-package com.telran.hq.tests;
+package com.elpisor.hq.tests;
 
-import com.mongodb.client.MongoCollection;
+import com.elpisor.hq.model.User;
+import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
-import com.telran.hq.model.Collection;
-import com.telran.hq.model.User;
-import org.bson.Document;
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -24,6 +19,8 @@ public class RegisterUserTest extends TestBase {
 
         MongoDatabase userDatabase = app.usersDB().database(app.usersDB);
         String collectionName="profilles";
+
+
 
         long before= app.usersDB().collection(userDatabase,collectionName).countDocuments();
 
