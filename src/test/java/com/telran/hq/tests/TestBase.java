@@ -1,7 +1,7 @@
-package com.elpisor.hq.tests;
+package com.telran.hq.tests;
 
-import com.elpisor.hq.model.DBase;
-import com.elpisor.hq.manager.ApplicationManager;
+import com.telran.hq.manager.ApplicationManager;
+import com.telran.hq.model.DBase;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,10 +18,8 @@ public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
 
-
-    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
-
-
+    protected static final ApplicationManager app = new ApplicationManager(BrowserType.CHROME
+            , new DBase("mongodb://server:CjuND8hJ8L84F6N@ds349045.mlab.com:49045/?authSource=ht-profiles", "ht-profiles"));
 
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {

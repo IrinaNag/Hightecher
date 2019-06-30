@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="Test" >
         <classes>
-            <class name="com.elpisor.hq.tests.LoginTest" />
+            <class name="com.telran.hq.tests.LoginTest" />
         </classes>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package com.elpisor.hq.model;
+package com.telran.hq.model;
 
 import lombok.*;
 
