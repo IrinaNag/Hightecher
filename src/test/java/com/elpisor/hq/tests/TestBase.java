@@ -19,8 +19,7 @@ public class TestBase {
 
 
 
-    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME)
-            , new DBase("mongodb://server:CjuND8hJ8L84F6N@ds349045.mlab.com:49045/?authSource=ht-profiles", "ht-profiles"));
+    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
 
 

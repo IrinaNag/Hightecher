@@ -15,24 +15,23 @@ import java.util.stream.StreamSupport;
 
 
 public class DBHelper extends HelperBase{
-    DBase db;
+    MongoClient mongo;
 
-    public DBHelper(DBase db) {
+    public DBHelper(MongoClient mongo) {
         super();
-        this.db=db;
+        this.mongo=mongo;
     }
 
-    public MongoCollection<Document> collection (Collection collection){
+ /*    public MongoCollection<Document> collection (Collection collection){
         return database(collection.database).getCollection(collection.collectionName);
-    }
+    }*/
 
     public MongoCollection<Document> collection(MongoDatabase database, String collectionName) {
         return database.getCollection(collectionName);
     }
 
-    public MongoDatabase database(DBase db) {
-        MongoClient mongoClient = MongoClients.create(db.getUri());
-        return mongoClient.getDatabase(db.getDatabaseName());
+    public MongoDatabase database(String databaseName) {
+        return mongo.getDatabase(databaseName);
     }
 
     public List<String> collectionList(MongoCollection<Document> collection) {

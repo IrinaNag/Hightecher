@@ -1,13 +1,14 @@
 package com.elpisor.hq.tests;
 
 import com.mongodb.client.MongoCollection;
-import com.elpisor.hq.model.Collection;
+import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
 import org.testng.annotations.Test;
 
 import java.util.List;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class DBConnectionTest extends TestBase {
 
@@ -15,18 +16,28 @@ public class DBConnectionTest extends TestBase {
     public void testDBConnection() {
 
 
-        MongoCollection<Document> collection = app.usersDB().collection(new Collection(app.usersDB,"profiles"));
+        /*MongoCollection<Document> collection = app.usersDB()
+                .collection(app.usersDB().database(app.getProperties().getProperty("usersDatabase.name"))
+                        ,app.getProperties().getProperty("usersDatabase.profileCollectionName"));*/
+
+        System.out.println(app.getMongoUser().listDatabaseNames());
+
+        MongoDatabase database=app.getMongoUser().getDatabase(app.getProperties().getProperty("usersDatabase.name"));
+
+
+
+        MongoCollection collection=database.getCollection(app.getProperties().getProperty("usersDatabase.profileCollectionName"));
+        System.out.println(collection.countDocuments());
         long numberOfDocuments = collection.countDocuments();
 
 
 
         List<String> result = app.usersDB().collectionList(collection);
 
+        System.out.println(result);
 
 
-
-
-        MatcherAssert.assertThat(numberOfDocuments, CoreMatchers.equalTo(((long) result.size())));
+        assertThat(numberOfDocuments, equalTo(((long) result.size())));
 
     }
 

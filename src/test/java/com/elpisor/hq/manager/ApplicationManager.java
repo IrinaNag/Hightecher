@@ -1,6 +1,7 @@
 package com.elpisor.hq.manager;
 
-import com.elpisor.hq.model.DBase;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,6 +9,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
@@ -17,24 +19,31 @@ public class ApplicationManager {
     private final Properties properties;
     private String browser;
     protected WebDriver driver;
-    public DBase usersDB;
+    /*public DBase usersDB;*/
+    MongoClient mongoUser;
+    MongoClient mongoSkills;
 
     private UserHelper userHelper;
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
     private DBHelper usersDBHelper;
+   /* private DBHelper skillsDBHelper;*/
 
     /*private StringBuffer verificationErrors = new StringBuffer();*/
 
-    public ApplicationManager(String browser, DBase usersDB) {
+    public ApplicationManager(String browser) {
         this.browser = browser;
-        this.usersDB = usersDB;
         properties=new Properties();
+        String target=System.getProperty("target","general");
+        try {
+            properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",target))));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        mongoUser= MongoClients.create(properties.getProperty("usersDatabase.uri"));
     }
 
     public void start() throws IOException {
-        String target=System.getProperty("target","general");
-        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",target))));
 
         if (browser.equals(BrowserType.CHROME))
             driver = new ChromeDriver();
@@ -47,13 +56,20 @@ public class ApplicationManager {
         navigationHelper.site(properties.getProperty("web.baseUrl"));
         userHelper = new UserHelper(driver);
         sessionHelper = new SessionHelper(driver);
-        usersDBHelper = new DBHelper(usersDB);
+        /*usersDBHelper = new DBHelper(new DBase(properties.getProperty("usersDatabase.uri"),properties.getProperty("usersDatabase.name")));*/
+
+        usersDBHelper = new DBHelper(mongoUser);
+        /*skillsDBHelper = new DBHelper(new DBase(properties.getProperty("skillsDatabase.uri"),properties.getProperty("skillsDatabase.name")));*/
+        /*mongoSkills= MongoClients.create(properties.getProperty("skillsDatabase.uri"));
+        skillsDBHelper = new DBHelper(mongoSkills);*/
 
     }
 
 
     public void stop() {
         driver.quit();
+        mongoUser.close();
+        /*mongoSkills.close();*/
         /*String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
@@ -74,6 +90,14 @@ public class ApplicationManager {
 
     public DBHelper usersDB() {
         return usersDBHelper;
+    }
+
+    public Properties getProperties() {
+        return properties;
+    }
+
+    public MongoClient getMongoUser() {
+        return mongoUser;
     }
 }
 
