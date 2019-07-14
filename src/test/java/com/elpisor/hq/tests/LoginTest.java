@@ -1,6 +1,6 @@
-package com.telran.hq.tests;
+package com.elpisor.hq.tests;
 
-import com.telran.hq.model.UserLogin;
+import com.elpisor.hq.model.UserLogin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;

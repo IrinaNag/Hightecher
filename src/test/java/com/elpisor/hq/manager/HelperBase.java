@@ -1,6 +1,6 @@
-package com.telran.hq.manager;
+package com.elpisor.hq.manager;
 
-import com.telran.hq.model.UserLogin;
+import com.elpisor.hq.model.UserLogin;
 import lombok.NoArgsConstructor;
 import org.openqa.selenium.*;
 

@@ -1,7 +1,7 @@
-package com.telran.hq.manager;
+package com.elpisor.hq.manager;
 
-import com.telran.hq.model.User;
-import com.telran.hq.model.UserLogin;
+import com.elpisor.hq.model.User;
+import com.elpisor.hq.model.UserLogin;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
